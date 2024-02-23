@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    width: 75%;
+    height: 60%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    padding: .75rem 2rem .75rem 2rem;
+}
+
+.faqOne {
+    background-color: #D5EAF6;
+}
+
+.faqTwo {
+    background-color: #FFEDCE
+}
+
+.faqThree {
+    background-color: #DBF1D2;
+}
+
+.faqFour {
+    background-color: #ECEAFF;
+}
+
+.card h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.17rem;
+    color: #2F414C;
+}
+
+.card button {
+    margin-right: 1rem;
+    background: none;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card button.active { 
+    transform: rotate(45deg);
+} 
+
+.plus-sign {
+    height: 2.5rem;
+}
+
+.content {
+ display: none;
+ color: #2F414C;
+}
